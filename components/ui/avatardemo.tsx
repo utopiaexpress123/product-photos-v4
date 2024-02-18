@@ -39,4 +39,4 @@ const AvatarDemo = () => (
   </div>
 );
 
-export default AvatarDemo;
+export { AvatarDemo }
