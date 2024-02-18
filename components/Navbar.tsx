@@ -1,4 +1,5 @@
 import { AvatarIcon } from "@radix-ui/react-icons";
+import { AvatarDemo } from "./ui/avatardemo";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 import {
@@ -71,6 +72,7 @@ export default async function Navbar() {
             )}
             <DropdownMenu>
               <DropdownMenuTrigger asChild className="cursor-pointer">
+                <AvatarDemo/>
                 <AvatarIcon height={24} width={24} className="text-primary" />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-56">
