@@ -31,7 +31,7 @@ export default async function ModelsTable({ models }: ModelsTableProps) {
       <Table className="w-full">
         <TableHeader>
           <TableRow>
-            <TableHead>Name</TableHead>
+            <TableHead>Model Name</TableHead>
             <TableHead>Status</TableHead>
             <TableHead>Type</TableHead>
             <TableHead>Samples</TableHead>

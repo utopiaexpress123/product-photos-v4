@@ -192,10 +192,10 @@ export default function TrainModelZone() {
             control={form.control}
             name="name"
             render={({ field }) => (
-              <FormItem className="w-full rounded-md">
+              <FormItem className="w-full rounded-md">.
                 <FormLabel>Name</FormLabel>
                 <FormDescription>
-                  Give your model a name so you can easily identify it later.
+                  Give your model a name so you can easily identify it later
                 </FormDescription>
                 <FormControl>
                   <Input
