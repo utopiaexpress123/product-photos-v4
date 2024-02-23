@@ -33,7 +33,6 @@ export default async function ModelsTable({ models }: ModelsTableProps) {
           <TableRow>
             <TableHead>Name</TableHead>
             <TableHead>Status</TableHead>
-            <TableHead>Type</TableHead>
             <TableHead>Samples</TableHead>
           </TableRow>
         </TableHeader>
